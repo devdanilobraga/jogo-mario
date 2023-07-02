@@ -126,11 +126,8 @@
     right: 100%;
   }
 }
-
 @media (max-width: 768px) {
-  .game-board {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg);
-    transform-origin: top left;
+  .pipe {
+    animation-duration: 0.5s;
   }
+}
