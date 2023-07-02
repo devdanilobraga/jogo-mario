@@ -126,3 +126,11 @@
     right: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .game-board {
+    width: 300%;
+    height: 100vw;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+  }
