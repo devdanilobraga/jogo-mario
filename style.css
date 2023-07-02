@@ -129,7 +129,7 @@
 
 @media (max-width: 768px) {
   .game-board {
-    width: 300%;
+    width: 100vh;
     height: 100vw;
     transform: rotate(-90deg);
     transform-origin: top left;
